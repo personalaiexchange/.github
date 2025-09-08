@@ -1,6 +1,6 @@
 ## Introduction
 
-### Get started with the PAIX Protocol — a Personal AI eXchange
+### Get started with the PAIX Protocol — a Private AI eXchange
 
 **PAIX is an open protocol for email that standardizes how personal AI agents connect, communicate, and act on behalf of individuals.**
 
