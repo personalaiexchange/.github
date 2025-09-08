@@ -89,10 +89,10 @@ PAIX upgrades email into a shared universal interface for individuals and their 
 We're building the communication layer for the agentic internet and welcome contributors at all levels.
 
 ### For End Users
-**Start using PAIX today:**
-- Get a PAIX address from [Prifina](https://prifina.com) (first provider)
-- Use it instead of personal email with services
-- Experience shared human-AI collaboration
+**Get ready for PAIX:**
+- [Join the Prifina waitlist](https://www.prifina.com/join-waitlist) - our committed first provider
+- For technically capable users: implement PAIX under your own domain using the [Provider Guide](paix-spec/docs/Providers_Guide.md)
+- Follow development progress and be among the first to experience shared human-AI collaboration
 
 ### For Developers & Engineers
 **Integrate PAIX into your service:**
