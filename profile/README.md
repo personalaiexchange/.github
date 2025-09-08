@@ -6,6 +6,21 @@ PAIX upgrades email into a shared universal interface for individuals and their 
 
 ---
 
+## Latest Updates
+
+**September 2025**
+- v0.1 Draft specification published
+- Complete documentation ecosystem launched
+- Community contribution framework established
+- First provider (Prifina) supporting PAIX addresses
+
+**Coming Soon**
+- Reference implementation examples
+- Developer SDK libraries
+- Additional provider partnerships
+
+---
+
 ## Quick Start
 
 **Address format:**
@@ -69,6 +84,78 @@ PAIX upgrades email into a shared universal interface for individuals and their 
 
 ---
 
+## Getting Involved
+
+We're building the communication layer for the agentic internet and welcome contributors at all levels.
+
+### For End Users
+**Start using PAIX today:**
+- Get a PAIX address from [Prifina](https://prifina.com) (first provider)
+- Use it instead of personal email with services
+- Experience shared human-AI collaboration
+
+### For Developers & Engineers
+**Integrate PAIX into your service:**
+- Begin with [PAIX address recognition](paix-spec/docs/Developer_Quickstart.md)
+- Add capability discovery and signed actions
+- Build the future of AI-service interaction
+
+**Contribute to the ecosystem:**
+- Build SDK libraries in your preferred language
+- Create integration examples and tutorials  
+- Develop developer tools and utilities
+
+### For Service Providers
+**Enable PAIX in your platform:**
+- Review the [Services Guide](paix-spec/docs/Services_Guide.md)
+- Start with Level 1 recognition (5-minute implementation)
+- Gradually add advanced PAIX features
+- Reduce support costs through AI automation
+
+### For Email/Identity Providers
+**Become a PAIX provider:**
+- Study the [Provider Implementation Guide](paix-spec/docs/Providers_Guide.md)
+- Join the distributed trust ecosystem
+- Offer verified credentials and AI-ready features
+- Position yourself as a trust anchor for the agentic internet
+
+### For Organizations & Enterprises
+**Deploy PAIX internally:**
+- Use organizational addresses (`org-` prefix)
+- Enable employee AI collaboration
+- Integrate with existing email infrastructure
+- Explore bring-your-own-domain options
+
+### For Researchers & Academics
+**Study and extend PAIX:**
+- Analyze the security model and threat landscape
+- Propose extensions via the [Extensibility Registry](paix-spec/docs/Extensibility_Registry.md)
+- Research AI ethics and human-in-the-loop designs
+- Publish papers on agentic internet protocols
+
+### For Contributors & Community Members
+**Help build the specification:**
+- Join [Discussions](https://github.com/privateaiexchange/paix-spec/discussions) for ideas and questions
+- Open [Issues](https://github.com/privateaiexchange/paix-spec/issues) for bugs or feature requests
+- Submit pull requests following our [contribution guidelines](paix-spec/CONTRIBUTING.md)
+- Help with documentation, examples, and test cases
+
+**Community roles we need:**
+- Technical writers and documentation improvers
+- Security researchers and auditors
+- UX designers for reference implementations
+- Developer advocate and community managers
+- Translators for international adoption
+
+### For Investors & Business Leaders
+**Support the PAIX ecosystem:**
+- Invest in PAIX provider companies
+- Fund development of SDK libraries and tools
+- Support research into human-AI collaboration
+- Advocate for open standards in your industry
+
+---
+
 ## Key Features
 
 **Universal Compatibility**
@@ -93,39 +180,25 @@ PAIX upgrades email into a shared universal interface for individuals and their 
 
 ---
 
-## Getting Involved
-
-### For Users
-Start using PAIX addresses instead of personal email with services. The first provider is [Prifina](https://prifina.com).
-
-### For Developers
-Begin with [PAIX address recognition](paix-spec/docs/Developer_Quickstart.md) in your service. Add features incrementally as you see value.
-
-### For Contributors
-- Join [Discussions](https://github.com/privateaiexchange/paix-spec/discussions) for ideas and questions
-- Open [Issues](https://github.com/privateaiexchange/paix-spec/issues) for bugs or feature requests
-- Submit pull requests following our [contribution guidelines](paix-spec/CONTRIBUTING.md)
-
-### For Providers
-Review the [provider implementation guide](paix-spec/docs/Providers_Guide.md) to join the PAIX ecosystem.
-
----
-
 ## Protocol Status
 
 - **Current Version:** v0.1 (Draft)
-- **License:** MIT
+- **License:** MIT (completely open)
 - **Governance:** Community-driven with open contributions
 - **Reference Implementation:** Available via Prifina
+- **Ecosystem:** Actively seeking providers, services, and contributors
 
 ---
 
-## Contact
+## Contact & Community
 
-- **Specification:** [GitHub Discussions](https://github.com/privateaiexchange/paix-spec/discussions)
-- **Issues:** [GitHub Issues](https://github.com/privateaiexchange/paix-spec/issues)
-- **Creators:** Valto Loikkanen & Tero Ahola with the Prifina team
+- **Specification Discussions:** [GitHub Discussions](https://github.com/privateaiexchange/paix-spec/discussions)
+- **Bug Reports & Features:** [GitHub Issues](https://github.com/privateaiexchange/paix-spec/issues)
+- **Protocol Creators:** Valto Loikkanen & Tero Ahola with the Prifina team
+- **Community:** Open to all - join the conversation and help shape the future
 
 ---
 
 *Leave the browsers to humans and let agents get to work in the background.*
+
+**Ready to join the agentic internet? Start with any role above and help us build the communication layer for human-AI collaboration.**
