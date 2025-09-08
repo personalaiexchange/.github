@@ -1,42 +1,131 @@
-## Introduction
+# PAIX — Private AI eXchange
 
-### Get started with the PAIX Protocol — a Private AI eXchange
+**An open email protocol for the agentic internet**
 
-**PAIX is an open protocol for email that standardizes how personal AI agents connect, communicate, and act on behalf of individuals.**
-
-It doesn't replace email — it extends it.
-PAIX builds on the world's most universal communication system to give people and their AI twins a shared, flexible interface with services, providers, and other agents.
-
-Think of PAIX like a USB-C connector for personal AI — it doesn't define the data inside the message (that's up to the sender), but it standardizes the interface logic:
-Who sends the message, how it can be received, and how it can be acted on — by both humans and agents.
-
-### What PAIX enables:
-
-* A **shared communication channel** between users, their personal AIs, and the services they interact with
-* **Autonomous yet user-controlled agent interactions** — powered by email, but with added structure when needed
-* A **gradual, adoption-friendly path** for services: from doing nothing (just receiving email) to recognizing and responding to PAIX-enhanced messages
-* **Seamless layering with existing protocols** like MCP — using PAIX for interface logic and MCP (or others) for structured payloads
-
-### PAIX is:
-
-* **Open and implementation-neutral** — no vendor lock-in, no exclusive formats
-* **Built for the real world** — works today, with existing infrastructure
-* **Agent-ready by design** — assumes users have personal AIs that can act and respond under their guidance
-* **User-owned and portable** — PAIX addresses can be created, rotated, or revoked at any time
-* **Secure and privacy-aligned** — with optional verifiable credentials, cryptographic signing, and zero-knowledge trust models
+PAIX upgrades email into a shared universal interface for individuals and their personal AIs to interact with services. It works everywhere email works today and scales into structured, AI-ready communication tomorrow.
 
 ---
 
-### PAIX is not:
+## Quick Start
 
-* A new content or context format
-* An attempt to replace APIs
-* A hard dependency on any specific infrastructure or AI system
+**Address format:**
+```
+<uid>[.k_<eck>][+tag]@paix.<provider-domain>
+```
 
-Instead, **PAIX complements existing protocols and standards** — like using MCP inside a PAIX email message to define the payload, while PAIX handles identity, routing, access, and trust.
+**What PAIX enables:**
+- One address = ID + verified email + login + comms + API key + AI interface
+- Shared inbox for you and your AI
+- Passwordless authentication with OTP
+- Provider-backed verification without PII exposure
+- AI-to-AI communication with human oversight
 
 ---
 
-**Test edit made by Claude AI assistant** - September 9, 2025
+## Documentation
 
-Would you like this as a full GitHub `README.md` structure next, or adapted for your upcoming website/docs page layout (e.g. sections for developers, users, providers)?
+### Essential Reading
+| Document | Purpose | Audience |
+|----------|---------|----------|
+| **[Primer](paix-spec/docs/Primer_Cover.md)** | Quick introduction to PAIX | Everyone |
+| **[Whitepaper](paix-spec/docs/Whitepaper.md)** | Complete protocol overview | Technical leaders |
+| **[Emma's Journey](paix-spec/docs/Journey_Emma.md)** | Real-world usage scenario | Product managers |
+| **[Value Stack](paix-spec/docs/PAIX_Value_Stack.md)** | Business case and benefits | Executives |
+
+### Implementation Guides
+| Document | Purpose | Audience |
+|----------|---------|----------|
+| **[Technical Spec](paix-spec/docs/Spec_v0.1.md)** | Complete protocol specification | Engineers |
+| **[Developer Quickstart](paix-spec/docs/Developer_Quickstart.md)** | Integration guide with code examples | Developers |
+| **[Security & Privacy](paix-spec/docs/Security_Privacy.md)** | Security model and requirements | Security teams |
+| **[Address Examples](paix-spec/examples/addresses.md)** | Validation and parsing examples | Implementers |
+
+### Stakeholder Guides
+| Document | Purpose | Audience |
+|----------|---------|----------|
+| **[For Individuals](paix-spec/docs/Individuals_Guide.md)** | Consumer benefits and usage | End users |
+| **[For Services](paix-spec/docs/Services_Guide.md)** | Business benefits and adoption | Service providers |
+| **[For Providers](paix-spec/docs/Providers_Guide.md)** | Provider implementation guide | Email/identity providers |
+| **[Comparison Analysis](paix-spec/docs/Comparison_Appendix.md)** | PAIX vs alternatives | Decision makers |
+
+### Project Information
+| Document | Purpose |
+|----------|---------|
+| **[Contributing](paix-spec/CONTRIBUTING.md)** | How to contribute to PAIX |
+| **[Governance](paix-spec/GOVERNANCE.md)** | Project governance model |
+| **[Extensibility Registry](paix-spec/docs/Extensibility_Registry.md)** | Extension framework |
+| **[Changelog](paix-spec/CHANGELOG.md)** | Version history |
+
+---
+
+## Repositories
+
+### Core Protocol
+- **[paix-spec](https://github.com/privateaiexchange/paix-spec)** — Complete PAIX protocol specification and documentation
+
+### Examples & Tools *(Coming Soon)*
+- **[paix-examples](https://github.com/privateaiexchange/paix-examples)** — Implementation examples and scenarios
+- **paix-tools** — SDK libraries and development tools
+
+---
+
+## Key Features
+
+**Universal Compatibility**
+- Works as regular email from day one
+- Gradual adoption path for advanced features
+- No breaking changes to existing systems
+
+**User Ownership**
+- Choose your provider or bring your own domain
+- Rotate or revoke addresses anytime
+- Complete control over AI permissions
+
+**AI-Ready Design**
+- Shared inbox for human and AI collaboration
+- Structured communication with cryptographic verification
+- Human-in-the-loop guardrails for sensitive actions
+
+**Privacy by Design**
+- Unique addresses per service prevent cross-tracking
+- Selective disclosure of verified attributes
+- No raw PII exposure
+
+---
+
+## Getting Involved
+
+### For Users
+Start using PAIX addresses instead of personal email with services. The first provider is [Prifina](https://prifina.com).
+
+### For Developers
+Begin with [PAIX address recognition](paix-spec/docs/Developer_Quickstart.md) in your service. Add features incrementally as you see value.
+
+### For Contributors
+- Join [Discussions](https://github.com/privateaiexchange/paix-spec/discussions) for ideas and questions
+- Open [Issues](https://github.com/privateaiexchange/paix-spec/issues) for bugs or feature requests
+- Submit pull requests following our [contribution guidelines](paix-spec/CONTRIBUTING.md)
+
+### For Providers
+Review the [provider implementation guide](paix-spec/docs/Providers_Guide.md) to join the PAIX ecosystem.
+
+---
+
+## Protocol Status
+
+- **Current Version:** v0.1 (Draft)
+- **License:** MIT
+- **Governance:** Community-driven with open contributions
+- **Reference Implementation:** Available via Prifina
+
+---
+
+## Contact
+
+- **Specification:** [GitHub Discussions](https://github.com/privateaiexchange/paix-spec/discussions)
+- **Issues:** [GitHub Issues](https://github.com/privateaiexchange/paix-spec/issues)
+- **Creators:** Valto Loikkanen & Tero Ahola with the Prifina team
+
+---
+
+*Leave the browsers to humans and let agents get to work in the background.*
