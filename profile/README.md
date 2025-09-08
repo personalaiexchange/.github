@@ -4,10 +4,10 @@
 
 **PAIX is an open protocol for email that standardizes how personal AI agents connect, communicate, and act on behalf of individuals.**
 
-It doesn’t replace email — it extends it.
-PAIX builds on the world’s most universal communication system to give people and their AI twins a shared, flexible interface with services, providers, and other agents.
+It doesn't replace email — it extends it.
+PAIX builds on the world's most universal communication system to give people and their AI twins a shared, flexible interface with services, providers, and other agents.
 
-Think of PAIX like a USB-C connector for personal AI — it doesn’t define the data inside the message (that’s up to the sender), but it standardizes the interface logic:
+Think of PAIX like a USB-C connector for personal AI — it doesn't define the data inside the message (that's up to the sender), but it standardizes the interface logic:
 Who sends the message, how it can be received, and how it can be acted on — by both humans and agents.
 
 ### What PAIX enables:
@@ -36,5 +36,7 @@ Who sends the message, how it can be received, and how it can be acted on — by
 Instead, **PAIX complements existing protocols and standards** — like using MCP inside a PAIX email message to define the payload, while PAIX handles identity, routing, access, and trust.
 
 ---
+
+**Test edit made by Claude AI assistant** - September 9, 2025
 
 Would you like this as a full GitHub `README.md` structure next, or adapted for your upcoming website/docs page layout (e.g. sections for developers, users, providers)?
