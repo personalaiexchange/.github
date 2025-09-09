@@ -42,34 +42,34 @@ PAIX upgrades email into a shared universal interface for individuals and their 
 ### Essential Reading
 | Document | Purpose | Audience |
 |----------|---------|----------|
-| **[Primer](paix-spec/docs/Primer_Cover.md)** | Quick introduction to PAIX | Everyone |
-| **[Whitepaper](paix-spec/docs/Whitepaper.md)** | Complete protocol overview | Technical leaders |
-| **[Emma's Journey](paix-spec/docs/Journey_Emma.md)** | Real-world usage scenario | Product managers |
-| **[Value Stack](paix-spec/docs/PAIX_Value_Stack.md)** | Business case and benefits | Executives |
+| **[Primer](https://github.com/privateaiexchange/paix-spec/blob/main/docs/Primer_Cover.md)** | Quick introduction to PAIX | Everyone |
+| **[Whitepaper](https://github.com/privateaiexchange/paix-spec/blob/main/docs/Whitepaper.md)** | Complete protocol overview | Technical leaders |
+| **[Emma's Journey](https://github.com/privateaiexchange/paix-spec/blob/main/docs/Journey_Emma.md)** | Real-world usage scenario | Product managers |
+| **[Value Stack](https://github.com/privateaiexchange/paix-spec/blob/main/docs/PAIX_Value_Stack.md)** | Business case and benefits | Executives |
 
 ### Implementation Guides
 | Document | Purpose | Audience |
 |----------|---------|----------|
-| **[Technical Spec](paix-spec/docs/Spec_v0.1.md)** | Complete protocol specification | Engineers |
-| **[Developer Quickstart](paix-spec/docs/Developer_Quickstart.md)** | Integration guide with code examples | Developers |
-| **[Security & Privacy](paix-spec/docs/Security_Privacy.md)** | Security model and requirements | Security teams |
-| **[Address Examples](paix-spec/examples/addresses.md)** | Validation and parsing examples | Implementers |
+| **[Technical Spec](https://github.com/privateaiexchange/paix-spec/blob/main/docs/Spec_v0.1.md)** | Complete protocol specification | Engineers |
+| **[Developer Quickstart](https://github.com/privateaiexchange/paix-spec/blob/main/docs/Developer_Quickstart.md)** | Integration guide with code examples | Developers |
+| **[Security & Privacy](https://github.com/privateaiexchange/paix-spec/blob/main/docs/Security_Privacy.md)** | Security model and requirements | Security teams |
+| **[Address Examples](https://github.com/privateaiexchange/paix-spec/blob/main/examples/addresses.md)** | Validation and parsing examples | Implementers |
 
 ### Stakeholder Guides
 | Document | Purpose | Audience |
 |----------|---------|----------|
-| **[For Individuals](paix-spec/docs/Individuals_Guide.md)** | Consumer benefits and usage | End users |
-| **[For Services](paix-spec/docs/Services_Guide.md)** | Business benefits and adoption | Service providers |
-| **[For Providers](paix-spec/docs/Providers_Guide.md)** | Provider implementation guide | Email/identity providers |
-| **[Comparison Analysis](paix-spec/docs/Comparison_Appendix.md)** | PAIX vs alternatives | Decision makers |
+| **[For Individuals](https://github.com/privateaiexchange/paix-spec/blob/main/docs/Individuals_Guide.md)** | Consumer benefits and usage | End users |
+| **[For Services](https://github.com/privateaiexchange/paix-spec/blob/main/docs/Services_Guide.md)** | Business benefits and adoption | Service providers |
+| **[For Providers](https://github.com/privateaiexchange/paix-spec/blob/main/docs/Providers_Guide.md)** | Provider implementation guide | Email/identity providers |
+| **[Comparison Analysis](https://github.com/privateaiexchange/paix-spec/blob/main/docs/Comparison_Appendix.md)** | PAIX vs alternatives | Decision makers |
 
 ### Project Information
 | Document | Purpose |
 |----------|---------|
-| **[Contributing](paix-spec/CONTRIBUTING.md)** | How to contribute to PAIX |
-| **[Governance](paix-spec/GOVERNANCE.md)** | Project governance model |
-| **[Extensibility Registry](paix-spec/docs/Extensibility_Registry.md)** | Extension framework |
-| **[Changelog](paix-spec/CHANGELOG.md)** | Version history |
+| **[Contributing](https://github.com/privateaiexchange/paix-spec/blob/main/CONTRIBUTING.md)** | How to contribute to PAIX |
+| **[Governance](https://github.com/privateaiexchange/paix-spec/blob/main/GOVERNANCE.md)** | Project governance model |
+| **[Extensibility Registry](https://github.com/privateaiexchange/paix-spec/blob/main/docs/Extensibility_Registry.md)** | Extension framework |
+| **[Changelog](https://github.com/privateaiexchange/paix-spec/blob/main/CHANGELOG.md)** | Version history |
 
 ---
 
@@ -91,12 +91,12 @@ We're building the communication layer for the agentic internet and welcome cont
 ### For End Users
 **Get ready for PAIX:**
 - [Join the Prifina waitlist](https://www.prifina.com/join-waitlist) - our committed first provider
-- For technically capable users: implement PAIX under your own domain using the [Provider Guide](paix-spec/docs/Providers_Guide.md)
+- For technically capable users: implement PAIX under your own domain using the [Provider Guide](https://github.com/privateaiexchange/paix-spec/blob/main/docs/Providers_Guide.md)
 - Follow development progress and be among the first to experience shared human-AI collaboration
 
 ### For Developers & Engineers
 **Integrate PAIX into your service:**
-- Begin with [PAIX address recognition](paix-spec/docs/Developer_Quickstart.md)
+- Begin with [PAIX address recognition](https://github.com/privateaiexchange/paix-spec/blob/main/docs/Developer_Quickstart.md)
 - Add capability discovery and signed actions
 - Build the future of AI-service interaction
 
@@ -107,14 +107,14 @@ We're building the communication layer for the agentic internet and welcome cont
 
 ### For Service Providers
 **Enable PAIX in your platform:**
-- Review the [Services Guide](paix-spec/docs/Services_Guide.md)
+- Review the [Services Guide](https://github.com/privateaiexchange/paix-spec/blob/main/docs/Services_Guide.md)
 - Start with Level 1 recognition (5-minute implementation)
 - Gradually add advanced PAIX features
 - Reduce support costs through AI automation
 
 ### For Email/Identity Providers
 **Become a PAIX provider:**
-- Study the [Provider Implementation Guide](paix-spec/docs/Providers_Guide.md)
+- Study the [Provider Implementation Guide](https://github.com/privateaiexchange/paix-spec/blob/main/docs/Providers_Guide.md)
 - Join the distributed trust ecosystem
 - Offer verified credentials and AI-ready features
 - Position yourself as a trust anchor for the agentic internet
@@ -129,7 +129,7 @@ We're building the communication layer for the agentic internet and welcome cont
 ### For Researchers & Academics
 **Study and extend PAIX:**
 - Analyze the security model and threat landscape
-- Propose extensions via the [Extensibility Registry](paix-spec/docs/Extensibility_Registry.md)
+- Propose extensions via the [Extensibility Registry](https://github.com/privateaiexchange/paix-spec/blob/main/docs/Extensibility_Registry.md)
 - Research AI ethics and human-in-the-loop designs
 - Publish papers on agentic internet protocols
 
@@ -137,7 +137,7 @@ We're building the communication layer for the agentic internet and welcome cont
 **Help build the specification:**
 - Join [Discussions](https://github.com/privateaiexchange/paix-spec/discussions) for ideas and questions
 - Open [Issues](https://github.com/privateaiexchange/paix-spec/issues) for bugs or feature requests
-- Submit pull requests following our [contribution guidelines](paix-spec/CONTRIBUTING.md)
+- Submit pull requests following our [contribution guidelines](https://github.com/privateaiexchange/paix-spec/blob/main/CONTRIBUTING.md)
 - Help with documentation, examples, and test cases
 
 **Community roles we need:**
